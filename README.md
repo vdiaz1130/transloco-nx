@@ -1,5 +1,5 @@
 # TranslocoWithLibs
 
-This project was generated using [Nx](https://nx.dev), to demonstrate how to use transloco to enable i18n across multiple libraries and an application.
+Please clone, npm i, npm start.
 
-See more details here: https://ngneat.github.io/transloco/docs/inline-loaders/
+Note that the translations do not load until the component is loaded the second time or unless you click one of the language buttons.
