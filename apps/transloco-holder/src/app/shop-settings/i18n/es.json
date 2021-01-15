@@ -1,0 +1,12 @@
+{
+  "shopSettings": {
+    "generalSettings": {
+      "trialExpirationPending": "Vence en  {{transformedDate}}: tienes {{diff}} días antes de que expire la prueba.",
+      "trialExpirationEnded": "Your trial period expired. Please set up a paid account.",
+      "noParams": "Hello - spanish",
+      "params": "The following {{ value }} was replaced by Transloco - spanish",
+      "plural": "{count, plural, =0 {no results} one {one result} other {# results}} - spanish",
+      "gender": "{gender, select, male {he} female {she} other {they}} went to the shop - spanish"
+    }
+  }
+}

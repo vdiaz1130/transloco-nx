@@ -1,0 +1,21 @@
+<section>
+  <style>
+    button {
+      padding: 8px 20px;
+      margin: 10px;
+      border-radius: 5px;
+      border: 1px solid #bfbfbf;
+    }
+  </style>
+  <h1>This should tell me where I am</h1>
+  <button (click)="change('en')">English</button>
+  <button (click)="change('es')">Spanish</button>
+  <button [routerLink]="'/'">Home</button>
+  <button [routerLink]="'/settings/coupons'">Coupons</button>
+
+  <ng-container *transloco="let t">
+    <p>Root: {{ t('gps') }}</p>
+  </ng-container>
+
+  <router-outlet></router-outlet>
+</section>

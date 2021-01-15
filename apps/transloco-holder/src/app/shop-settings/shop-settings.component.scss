@@ -1,0 +1,40 @@
+:host {
+  .content {
+    margin: 5px;
+    padding: 0px;
+    display: flex;
+  }
+
+  .header {
+    color: #3f3f3f;
+    margin: 0;
+    background: rgba(255,255,255,0);
+    border-top: thin solid #efefef;
+
+    height: 80px !important;
+    min-height: 80px !important;
+    max-height: 80px !important;
+
+    .logo {
+      .logo-icon {
+        margin: 0 16px 0 0;
+      }
+
+      .logo-text {
+        font-size: 1.75rem;
+        line-height: 1.75rem;
+      }
+    }
+
+    .account {
+      width: 100%;
+    }
+  }
+
+  .form-cntr {
+    .form-footer-cntr {
+      width: 100%;
+    }
+  }
+}
+

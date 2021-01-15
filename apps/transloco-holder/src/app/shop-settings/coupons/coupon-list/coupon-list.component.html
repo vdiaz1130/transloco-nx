@@ -1,0 +1,15 @@
+<div
+  style="display: flex; flex-direction: column; background-color: rgba(255,0,0,.025); padding: 20px;"
+>
+  <h2>I am the parent component and will be loading the Language JSON</h2>
+  <p>
+    Notice it doesn't load unless you click back and forth on the home/coupon or
+    English button 😔
+  </p>
+  <p style="padding: 10px; background-color: yellow;">
+    Language Data: {{ data | json }}
+  </p>
+  <transloco-with-libs-b
+    languagePath="shopSettings.couponSettings"
+  ></transloco-with-libs-b>
+</div>
